@@ -1,1 +1,13 @@
 @import url(reset.css);
+
+:root {
+  --clr-primary: hsl(4 100% 67%);
+  --clr-neutral-blue-800: hsl(234 29% 20%);
+  --clr-neutral-Blue-700: hsl(235 18% 26%);
+  --clr-neutral-Grey: hsl(0 0%58%);
+  --clr-neutral-White: hsl(0 0% 100%);
+
+  --fs-paragraph: 16px;
+  --fw-400: 400;
+  --fw-700: 700;
+}
