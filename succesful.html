@@ -29,16 +29,26 @@
     </style>
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper wrapper--successful">
       <!-- Success message start -->
 
-      <main class="grid">
-        <h1>Thanks for subscribing!</h1>
-        <p>
-          A confirmation email has been sent to ash@loremcompany.com. Please
-          open it and click the button inside to confirm your subscription.
-        </p>
-        <button class="button__successful">Dismiss message</button>
+      <main class="grid__successful">
+        <div>
+          <img src="assets/images/icon-success.svg" alt="" />
+          <h1 class="grid__title grid__title__successful">
+            Thanks for subscribing!
+          </h1>
+          <p class="grid__text">
+            A confirmation email has been sent to <b>ash@loremcompany.com</b>.
+            Please open it and click the button inside to confirm your
+            subscription.
+          </p>
+        </div>
+        <form action="index.html" class="">
+          <button type="submit" class="button__successful">
+            Dismiss message
+          </button>
+        </form>
       </main>
 
       <!-- Success message end -->
