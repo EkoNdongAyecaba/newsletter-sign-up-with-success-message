@@ -30,8 +30,15 @@
     </style>
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapped">
       <div class="grid">
+        <picture class="grid__sidebar">
+          <source
+            media="(min-width: 650px)"
+            srcset="assets/images/illustration-sign-up-desktop.svg"
+          />
+          <img src="assets/images/illustration-sign-up-mobile.svg" alt="" />
+        </picture>
         <main class="grid__main darkmode">
           <!-- Sign-up form start -->
           <h1 class="grid__title">Stay updated!</h1>
@@ -43,7 +50,7 @@
             <li>Measuring to ensure updates are a success</li>
             <li>And much more!</li>
           </ul>
-          <form action="" class="griid__form form">
+          <form action="succesful.html" class="grid__form form">
             <div>
               <div class="form__label">
                 <label for="Email">Email address</label>
@@ -55,14 +62,12 @@
                 id="email"
                 placeholder="email@company.com"
                 class="input"
+                minlength="5"
               />
             </div>
             <button type="submit">Subscribe to monthly newsletter</button>
           </form>
-          <!--  JS file-->
-          <script src="jscript.js"></script>
         </main>
-        <aside class="grid__sidebar"></aside>
         <!-- Sign-up form end -->
         <div class="attribution">
           Challenge by
@@ -73,6 +78,8 @@
             >Frontend Mentor</a
           >. Coded by <a href="#">Your Name Here</a>.
         </div>
+        <!--  JS file-->
+        <script src="jscript.js"></script>
       </div>
     </div>
   </body>
