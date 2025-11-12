@@ -131,11 +131,6 @@ button,
     border: 1px solid var(--clr-primary);
     background: hsl(from var(--clr-primary) h s l / 0.3);
   }
-
-  /* &:not(:focus):invalid {
-    background: hsl(from var(--clr-primary) h s l / 0.3);
-    border: 1px solid var(--clr-primary);
-  } */
 }
 
 button {
@@ -159,8 +154,6 @@ button {
     outline: none;
   }
 }
-
-/** Successful Styles */
 
 .attribution {
   display: none;
